@@ -39,7 +39,7 @@ h2 {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px; /* 146.667% */
+    line-height: 22px;
 }
 
 h3 {
@@ -95,11 +95,11 @@ font-family: Karla;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 22px; /* 146.667% */
+line-height: 22px;
 }
 
 .grid-netz > *:nth-child(7n+8) {
-    grid-column: 1 / 4; /* Занимает все три колонки */
+    grid-column: 1 / 4; 
 }
 
 .footer__grid {
