@@ -10,7 +10,7 @@ const createArtikelBox = () => {
         `
         <a  href ="${element.link}" class="section__box  ${(element.brand === "Fjallraven") ? "main-artikel" : ""}">
             <div class="img__container">
-                <img src="./assets/img/${element.image}" alt="${element.name}" class="img__container">
+                <img src="./assets/img/${element.image}" alt="${element.name}" class="img__products">
             </div>
             <div class="artikel__beschreibung">
                 <div class="artikel__text">

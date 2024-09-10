@@ -63,7 +63,7 @@ h3 {
     gap: 60px;
 }
 
-.img__container {
+.img__products {
     background: lightgray 0px 0px / 100% 100% no-repeat;
     width: 100%;
     display: block;
@@ -82,7 +82,14 @@ h3 {
 
 .section__box{
     margin: 20px 0;
+    overflow: hidden;
 }
+
+.section__box:hover {
+    opacity: 0.6;
+
+}
+
 
 .artikel__beschreibung {
     display: flex;
