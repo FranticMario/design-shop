@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url(../fonts/Karla-Regular.ttf);
+}
+.wrapper {
+    /* width: 1360px; */
+    margin: 0 auto;
+    padding: 0 40px ;
+}
+
+body {
+    color: #323A45;
+    font-family: Karla;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #323A45;
+}
+
+h2 {
+    color: #000;
+    font-family: Karla;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+}
+
+h3 {
+    color: #000;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navigation {
+    display: flex;
+    gap: 60px;
+}
+
+.img__container {
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+.grid-netz {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.main-artikel {
+    grid-column: 1 / 4;
+}
+
+.section__box{
+    margin: 20px 0;
+}
+
+.artikel__beschreibung {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artikel__price {
+    color: #000;
+font-family: Karla;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 146.667% */
+}
+
+.grid-netz > *:nth-child(7n+8) {
+    grid-column: 1 / 4; /* Занимает все три колонки */
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.newsletter {
+    grid-column: 3 / 5;
+}
+.footer {
+    margin: 60px 0;
+}
+.footer__titile {
+    margin-bottom: 40px;
+}
+
+.footer__subtitle {
+    color: #000;
+    font-family: Karla;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.text-bold {
+    color: #000;
+    font-weight: 700;
+}
