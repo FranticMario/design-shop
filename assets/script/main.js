@@ -1,4 +1,5 @@
-import products from "./artikel.js";
+
+import  products  from "./artikel.js";
 
 const createArtikelBox = () => {
     const section = document.querySelector(".section__first");
